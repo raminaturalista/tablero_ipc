@@ -1,4 +1,3 @@
-from unittest import skip
 import pandas as pd
 
 archivo_ipc = "sh_ipc_aperturas.xls"
