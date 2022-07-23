@@ -3,8 +3,6 @@ import pandas as pd
 
 archivo_ipc = "sh_ipc_aperturas.xls"
 
-rango = "A253:BO298"
-
 #archivo_ipc = "prueba.xlsx"
 
 ipc_patagonico = pd.read_excel(archivo_ipc, sheet_name = "Variación mensual aperturas", skiprows = 252, nrows=  45)
